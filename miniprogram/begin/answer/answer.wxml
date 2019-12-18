@@ -1,0 +1,26 @@
+<view>
+<view><button class="wa-button wa-button-sm">知道你的答案</button></view>
+</view>
+
+<view>
+<image src="../../images/answer.jpg"></image>
+</view>
+
+<view class="please">你最想询问的是:</view>
+
+<view class="input-wrap">
+<input bindinput="input1" class="input"></input>
+</view>
+
+<view>
+<button class="enter" bindtap="jumpPageAnswer2">寻找答案</button>
+</view>
+
+<view wx:if="{{text==2}}">没事，有我在</view>
+<view wx:if="{{text==3}}">相信你的直觉</view>
+<view wx:if="{{text==1}}">慢下来</view>
+<view wx:if="{{text==4}}">这样做你会很开心</view>
+<view wx:if="{{text==5}}">温柔的坚持就会胜利</view>
+<view wx:if="{{text==6}}">相信你自己</view>
+<view wx:if="{{text==7}}">全力以赴</view>
+<view wx:if="{{text==8}}">坚定的决心回取得好的结果</view>

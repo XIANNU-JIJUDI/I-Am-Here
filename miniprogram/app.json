@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "begin/begin/begin",
+    "begin/listen/listen",
+    "begin/answer/answer",
+    "begin/time/time",
+    "begin/weather/weather",
+    "begin/zhiyin/list/list",
+    "begin/zhiyin/mhome/mhome"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "I Am Here",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

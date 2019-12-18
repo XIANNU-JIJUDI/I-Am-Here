@@ -1,0 +1,25 @@
+<view class="content">
+<image class='background' src="../../images/2.jpg" mode="aspectFill"></image>
+</view>
+
+<view>
+<view><button class="wa-button wa-button-sm">抓住你的时间</button></view>
+</view>
+
+<view>
+ 
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 150px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{hours}}" style="line-height: 50px">{{item}}小时</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{mins}}" style="line-height: 50px">{{item}}分钟</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{secs}}" style="line-height: 50px">{{item}}秒</view>
+    </picker-view-column>
+  </picker-view>
+  <button bindtap="comfire"class="weui-btn"type="primary">开始计时</button>
+  
+  <button bindtap="rerepare"class="weui-btn"type="primary">复位</button>
+</view>

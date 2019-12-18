@@ -1,0 +1,10 @@
+<block wx:for="{{dataList}}" wx:key="item">
+<view class='item-container'>
+<text class='item-name'>上传人：{{item._openid}}</text>
+<text class='item-name'>上传时间：{{item.time}}</text> 
+<image class='img' src='{{item.imgurl}}'></image>
+<image class="shanchu" bindtap="delet" data-id="{{item._id}}" src="/images/7.jpg"></image>
+</view>
+</block>
+<button bindtap="qufabu" class="fabu">上传图片</button>
+<button bindtap="fanhui" class="fanhui">返回主页面</button>

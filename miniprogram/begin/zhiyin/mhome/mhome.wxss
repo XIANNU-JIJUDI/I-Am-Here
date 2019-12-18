@@ -1,0 +1,13 @@
+/* pages/home/home.wxss */
+.upload{
+position: fixed;
+bottom: 0px;
+left: 0px;
+background-color: #d0e0c7
+}
+.wancheng{
+position: fixed;
+bottom: 0px;
+right: 0px;
+background-color: #d0e0c7
+}

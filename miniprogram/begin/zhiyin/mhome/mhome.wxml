@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<button class="upload" bindtap="upload">添加</button>
+<button class="wancheng" bindtap="done">完成</button>
+<image src="{{imgurl}}"></image>

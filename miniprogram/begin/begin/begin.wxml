@@ -1,0 +1,37 @@
+<view class="content">
+<image class='background' src="../../images/6.jpg" mode="aspectFill"></image>
+</view>
+
+<text class="xiahuaxian">★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★</text>
+<view>
+<text class="header">I Am Here</text>
+</view>
+<text class="xiahuaxian">♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡</text>
+
+<view>
+<button class="listen" bindtap="jumpPageListen">听世界的声音</button>
+</view>
+
+<view>
+<button class="answer" bindtap="jumpPageAnswer">知道你的答案</button>
+</view>
+
+<view>
+<button class="time" bindtap="jumpPageTime">抓住你的时间</button>
+</view>
+
+<view>
+<button class="weather" bindtap="jumpPageWeather">感知你的冷暖</button>
+</view>
+<view>
+<button bindtap="zhiyin" class="zhiyin">寻找你的知音</button>
+</view>
+
+<view>
+<image src="../../images/dinosaur.png" class="dinosaur"></image>
+</view>
+  
+
+
+
+

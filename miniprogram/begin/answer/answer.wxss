@@ -1,0 +1,17 @@
+.please {
+width: 400px;
+margin-top: 20px;
+}
+
+page {
+  background: #b39aab;
+}
+
+.input-wrap{
+  margin-top: 10px;
+  margin-left: 3px;
+  border-radius: 5px;
+  width:310px;
+  height: 50px;
+  border:1px solid rgb(79, 62, 95)
+}

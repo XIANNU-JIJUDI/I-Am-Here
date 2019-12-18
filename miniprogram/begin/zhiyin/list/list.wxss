@@ -1,0 +1,48 @@
+/* pages/list/list.wxss */
+page {
+background: #97d8f7;
+}
+/* 卡片 */
+.item-container {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+transition: 0.3s;
+width: 92%;
+margin: 4%;
+display: flex;
+flex-direction: column;
+background: white;
+padding-top: 5pt;
+padding-bottom: 5pt;
+border-radius: 5px;
+}
+/* 上传人 */
+
+.item-name {
+font-size: 12px;
+margin-left: 15px;
+}
+/* 图片 */
+.img {
+width: 100px;
+height: 100px;
+margin-top: 10px;
+margin-left: 20px;
+}
+.fabu{
+position: fixed;
+left: 0px;
+bottom: 0px;
+background-color: #d0e0c7
+}
+.shanchu{
+width: 30px;
+height: 30px;
+position: absolute;
+right: 15px;
+}
+.fanhui{
+position: fixed;
+right: 0px;
+bottom: 0px;
+background-color: #d0e0c7
+}
